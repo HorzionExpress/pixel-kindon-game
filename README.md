@@ -1,4 +1,4 @@
-# pixel-kindon-game
+# pixel-kindom-game
 fun management sim
 Hey everyone! 👋 this is my FIFTH game project, dropped exactly ONE WEEK after my last one. I may have a problem where I can't stop coding  little games instead of doing  chores. No regrets. 🤷‍♂️
 
