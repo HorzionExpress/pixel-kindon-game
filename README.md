@@ -4,7 +4,7 @@ Hey everyone! 👋 this is my FIFTH game project, dropped exactly ONE WEEK after
 
 language：chinese You can use your ‌Web Page Translation Feature to switch the language you are familar.
 ‌
-Pixel Kingdom‌ is a goofy retro kingdom management sim stuffed into a single HTML file. No install, no setup — just copy the web adress     and immediately get to bossing around little pixel people, starting wars, and hoarding gold like a tiny medieval dragon. It's basically Civilization, Age of Empires, and your childhood pixel art obsession crammed into one browser tab. 🏰✨
+Pixel Kingdom‌ is a goofy retro kingdom management sim stuffed into a single HTML file. No install, no setup — just copy the web adress https://horzionexpress.github.io/pixel-kindon-game/  and immediately get to bossing around little pixel people, starting wars, and hoarding gold like a tiny medieval dragon. It's basically Civilization, Age of Empires, and your childhood pixel art obsession crammed into one browser tab. 🏰✨
 
 How to rule your kingdom
 
