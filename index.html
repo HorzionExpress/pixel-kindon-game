@@ -1669,7 +1669,7 @@ const game = {
               <li><span style="color:#27ae60;">🌲 绿荫公国</span>（和平）</li>
               <li><span style="color:#8e44ad;">👑 紫金帝国</span>（好战，最强）</li>
           </ul>
-          <p><b>可做的事：</b>🎁送礼 · 📜贸易协定 · 🤝缔结联盟 · ⚔️宣战 · 🕊️求和</p>
+          <p><b>可做的事：</b>🎁礼物馈赠 · 📜贸易协定 · 🤝缔结联盟 · ⚔️宣战 · 🕊️求和</p>
           <p class="tip">宣战后，面板会立即刷新出「⚔️ 进攻」和「🕊️ 求和」按钮，无需重新打开。</p>` },
         { title: '⚔️ 军队面板（10 种兵种）', target: '.btn-army',
           html: `<p>先建造 <span class="accent">🏛️ 兵营</span>，才能在这里训练部队。</p>
@@ -2685,7 +2685,7 @@ const game = {
                 </div>`;
             } else {
                 actionButtons = `
-                    <button class="btn btn-success" onclick="game.diplomacyGift('${k.id}')">🎁 送礼 (100金)</button>
+                    <button class="btn btn-success" onclick="game.diplomacyGift('${k.id}')">🎁 礼物馈赠 (100金)</button>
                     ${!k.tradeActive ? `<button class="btn" onclick="game.diplomacyTrade('${k.id}')" ${k.relation >= 20 ? '' : 'disabled style="opacity:0.4;"'}>📜 贸易协定</button>` : '<button class="btn" disabled style="opacity:0.5;">📜 贸易中</button>'}
                     ${!k.alliance ? `<button class="btn btn-success" onclick="game.diplomacyAlliance('${k.id}')" ${k.relation >= 70 ? '' : 'disabled style="opacity:0.4;"'}>🤝 缔结联盟</button>` : '<button class="btn btn-success" disabled>🤝 已结盟</button>'}
                     <button class="btn btn-danger" onclick="game.diplomacyDeclareWar('${k.id}')">⚔️ 宣战</button>
@@ -2741,7 +2741,7 @@ const game = {
         const boost = 8 * (this.state.techMods.diplomacyGift || 1);
         k.relation = clamp(k.relation + Math.round(boost), -100, 100);
         k.lastGiftDay = this.state.day;
-        this.toast(`🎁 送礼成功，${k.name} 关系 +${Math.round(boost)}`);
+        this.toast(`🎁 礼物馈赠成功，${k.name} 关系 +${Math.round(boost)}`);
         this.vibrate(20);
         this.renderDiplomacy();
         this.updateUI();
