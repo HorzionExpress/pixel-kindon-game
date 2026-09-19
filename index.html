@@ -1209,7 +1209,7 @@
     </div>
 </div>
 
-<div class="modal" id="cheatModal"><div class="modal-box"><span class="close" onclick="game.toggleCheatMenu()">✕</span><h2>🎮 作弊菜单</h2>
+<div class="modal" id="cheatModal"><div class="modal-box"><span class="close" onclick="game.toggleCheatMenu()">✕</span><h2>🎮 自由模式</h2>
 <div class="cheat-section"><h3>💰 资源</h3>
 <div class="cheat-row"><label>金币</label><input type="number" id="cheatGold" value="1000"><button class="btn btn-success" onclick="game.cheatAddGold()">+</button><button class="btn btn-danger" onclick="game.cheatSubGold()">−</button><button class="btn btn-warning" onclick="game.cheatSetGold()">设置</button></div>
 <div class="cheat-row"><label>食物</label><input type="number" id="cheatFood" value="100"><button class="btn btn-success" onclick="game.cheatAddFood()">+</button><button class="btn btn-danger" onclick="game.cheatSubFood()">−</button><button class="btn btn-warning" onclick="game.cheatSetFood()">设置</button></div>
@@ -1711,8 +1711,8 @@ const game = {
               <li><span class="accent">长按拖动</span>可以把它移到屏幕任意位置。</li>
           </ul>
           <p class="tip">战时小地图边框会变红并闪烁提示。</p>` },
-        { title: '🎮 作弊菜单 & 画质', target: '.btn-cheat',
-          html: `<p>点这个紫色按钮打开作弊菜单。</p>
+        { title: '🎮 自由模式 & 画质', target: '.btn-cheat',
+          html: `<p>点这个紫色按钮打开自由模式。</p>
           <ul>
               <li>💰 一键加资源</li>
               <li>⚔️ 一键加军队（含全部 10 种兵种）</li>
@@ -1733,7 +1733,7 @@ const game = {
               <li><span class="key">Esc</span>：取消建造模式 / 搬迁模式</li>
               <li><span class="key">空格</span>：暂停 / 继续</li>
               <li><span class="key">S</span> / <span class="key">L</span>：保存 / 读取</li>
-              <li><span class="key">C</span>：作弊菜单 · <span class="key">D</span>：外交 · <span class="key">A</span>：军队</li>
+              <li><span class="key">C</span>：自由模式 · <span class="key">D</span>：外交 · <span class="key">A</span>：军队</li>
           </ul>` },
         { title: '📱 触控操作', target: null,
           html: `<ul>
